@@ -1,0 +1,180 @@
+body {
+    background-color: #F4F7FB;
+}
+
+/* Page */
+
+main {
+    width: 60%;
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+section {
+    background-color: white;
+    padding: 16px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+section .title {
+    color: #18487B;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #DCEEFF;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    background-color: #18487B;
+    color: white;
+    text-align: center;
+    padding-block: 12px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+header div {
+    padding-bottom: 16px;
+}
+
+header div span {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    margin-inline-end: 8px;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* About */
+
+.about .image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    float: left;
+    margin-inline-end: 24px;
+    border: 2px solid #DCEEFF;
+}
+
+.about .image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about .content {
+    float: left;
+}
+
+.about .content p span {
+    color: #18487B;
+}
+
+.about .content a {
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #18487B;
+}
+
+
+/* Skills */
+
+.skills .content .cards .card {
+    width: 20%;
+    float: left;
+    margin-inline-end: 1%;
+    background-color: #F5FAFF;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid #DCEEFF;
+}
+
+.skills .content .cards .card h3 {
+    color: #4065AD;
+}
+
+/* Exp */
+
+.exp .content .card {
+    background-color: #F5FAFF;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid #DCEEFF;
+    border-inline-start: 4px solid #4065AD;
+    margin-bottom: 16px;
+}
+
+.exp .content .card .expName .image {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid #DCEEFF;
+    padding: 8px;
+    border-radius: 12px;
+    float: left;
+    margin-inline-end: 16px;
+}
+
+.exp .content .card .expName .image img {
+    width: 100%;
+}
+
+.exp .content .card .expName .data {
+    float: left;
+}
+
+.exp .content .card .expName .data h3 {
+    margin-top: 0;
+}
+
+.exp .content .card .expName .data h4 {
+    color: #4065AD;
+}
+
+/* Contact */
+
+.contact {
+    background-color: #18487B;
+    color: white;
+}
+
+.contact .title {
+    color: white;
+}
+
+.contact .content .links {
+    padding-block: 16px;
+}
+
+.contact .content .links a {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 8px;
+    border-radius: 8px;
+    margin-inline-end: 8px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #071A35;
+    color: white;
+    text-align: center;
+    border-radius: 16px;
+    padding-block: 12px;
+}
+
+footer span {
+    color: #DCEEFF;
+}
